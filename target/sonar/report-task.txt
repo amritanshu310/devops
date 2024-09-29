@@ -1,0 +1,6 @@
+projectKey=hello-world
+serverUrl=http://localhost:9000
+serverVersion=10.6.0.92116
+dashboardUrl=http://localhost:9000/dashboard?id=hello-world
+ceTaskId=e19721d3-f475-4253-9ae8-fbe108e4f6a8
+ceTaskUrl=http://localhost:9000/api/ce/task?id=e19721d3-f475-4253-9ae8-fbe108e4f6a8
