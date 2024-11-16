@@ -83,28 +83,6 @@
                     </archive>
                 </configuration>
             </plugin>
-
-            <!-- Jib plugin for building Docker images -->
-            <!-- <plugin>
-                <groupId>com.google.cloud.tools</groupId>
-                <artifactId>jib-maven-plugin</artifactId>
-                <version>3.3.1</version>
-                <configuration>
-                    <from>
-                        <image>openjdk:17-jdk-slim</image>
-                    </from>
-                    <to>
-                        <image>amritanshu310/hello-world:${project.version}</image>
-                    </to>
-                    <container>
-                        <jvmFlags>
-                            <jvmFlag>-Xms512m</jvmFlag>
-                            <jvmFlag>-Xmx512m</jvmFlag>
-                        </jvmFlags>
-                        <mainClass>com.example.App</mainClass>
-                    </container>
-                </configuration>
-            </plugin> -->
         </plugins>
     </build>
 </project>
