@@ -95,7 +95,7 @@ pipeline {
 
     post {
         always {
-            deleteDir() // Clean up workspace
+            deleteDir() 
         }
         success {
             mail to: 'amritanshucodes@gmail.com',
